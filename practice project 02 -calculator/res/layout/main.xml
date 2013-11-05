@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout 
+    android:id="@+id/widget45"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+    <Button 
+        android:id="@+id/divbutton" 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="/"
+		android:layout_x="192px" 
+		android:layout_y="86px">
+	</Button>
+	
+    <Button 
+        android:id="@+id/minusbutton" 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="-"
+		android:layout_x="254px" 
+		android:layout_y="18px">
+	</Button>
+	
+    <EditText 
+        android:id="@+id/input1" 
+        android:layout_width="160px"
+		android:layout_height="wrap_content" 
+		android:textSize="18sp"
+		
+		android:numeric = "decimal|signed"
+		android:layout_x="8px" 
+		android:layout_y="13px">
+	</EditText>
+	
+    <EditText 
+        android:id="@+id/input2"
+        android:layout_width="156px"
+		android:layout_height="wrap_content" 
+		android:textSize="18sp"
+		android:numeric = "decimal|signed"
+		android:layout_x="10px" 
+		android:layout_y="109px">
+	</EditText>
+	
+    
+    <Button 
+        android:id="@+id/plusbutton" 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="+"
+		android:layout_x="193px" 
+		android:layout_y="19px">
+	</Button>
+	
+    <TextView 
+        android:id="@+id/operator" 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_x="33px"
+		android:layout_y="77px">
+	</TextView>
+	
+    <EditText 
+        android:id="@+id/solution" 
+        android:layout_width="304px"
+		android:layout_height="wrap_content" 
+		android:textSize="18sp"
+		android:layout_x="7px" 
+		android:layout_y="214px">
+		
+        
+        
+	</EditText>
+	
+    
+    <Button 
+        android:id="@+id/prodbutton" 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="*"
+		android:layout_x="253px" 
+		android:layout_y="87px">
+	</Button>
+	
+    
+	<Button 
+	    android:id="@+id/equalbutton" 
+	    android:layout_width="120px"
+		android:layout_height="wrap_content" 
+		android:text="="
+		android:layout_x="192px" 
+		android:layout_y="149px">
+	</Button>
+
+	<Button
+	    android:id="@+id/clear"
+	    android:layout_width="83dp"
+	    android:layout_height="wrap_content"
+	    android:layout_x="200dp"
+	    android:layout_y="14dp"
+	    android:text="clear" />
+    
+</AbsoluteLayout>
